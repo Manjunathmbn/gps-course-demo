@@ -36,4 +36,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.YOUR_IMAGE_NAME }}:latest
+          #tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.YOUR_IMAGE_NAME }}:latest
+          tags: mbndocker/gps-course-demo:latest
