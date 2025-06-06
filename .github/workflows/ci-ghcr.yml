@@ -36,10 +36,10 @@ jobs:
 
     - name: Build Docker image
       run: |
-        IMAGE_NAME=ghcr.io/${{ github.repository_owner }}/my-java-app:latest
+        IMAGE_NAME=ghcr.io/manjunathmbn/my-java-app:latest
         docker build -t $IMAGE_NAME .
 
     - name: Push Docker image
       run: |
-        IMAGE_NAME=ghcr.io/${{ github.repository_owner }}/my-java-app:latest
+        IMAGE_NAME=ghcr.io/manjunathmbn/my-java-app:latest
         docker push $IMAGE_NAME
