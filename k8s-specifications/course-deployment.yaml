@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gps-course-demo
-        image: mbndocker/gps-course-demo  # Public course game image
+        image: ghcr.io/manjunathmbn/gps-course-demo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
