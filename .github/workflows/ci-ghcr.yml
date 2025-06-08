@@ -36,10 +36,10 @@ jobs:
 
     - name: Build Docker image
       run: |
-        IMAGE_NAME=ghcr.io/manjunathmbn/my-java-app:latest
+        IMAGE_NAME=ghcr.io/manjunathmbn/gps-course-demo:latest
         docker build -t $IMAGE_NAME .
 
     - name: Push Docker image
       run: |
-        IMAGE_NAME=ghcr.io/manjunathmbn/my-java-app:latest
+        IMAGE_NAME=ghcr.io/manjunathmbn/gps-course-demo:latest
         docker push $IMAGE_NAME
