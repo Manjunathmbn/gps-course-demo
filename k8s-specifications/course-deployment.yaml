@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: gps-course-demo
-        image: ghcr.io/manjunathmbn/gps-course-demo:latest
+        #image: ghcr.io/manjunathmbn/gps-course-demo:latest
+        image: gpscoursedemo.azurecr.io/course:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
